@@ -1,0 +1,162 @@
+2021-04-14 15:14:45 Error: [Cake\Http\Exception\MissingControllerException] Controller class Articles could not be found. in C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 228
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:65
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\BaseApplication.php:311
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\my_app_name\webroot\index.php:40
+
+Request URL: /Articles/index
+
+
+2021-04-14 15:17:44 Error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Articles` could not be found. in C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 245
+Exception Attributes: array (
+  0 => 'for alias `Articles`',
+)
+Stack Trace:
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:62
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:124
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Controller\Controller.php:307
+- C:\xampp\htdocs\my_app_name\src\Controller\ArticlesController.php:21
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\my_app_name\webroot\index.php:40
+
+Request URL: /Articles/index
+
+
+2021-04-14 15:19:37 Error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Articles` could not be found. in C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 245
+Exception Attributes: array (
+  0 => 'for alias `Articles`',
+)
+Stack Trace:
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:62
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:124
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Controller\Controller.php:307
+- C:\xampp\htdocs\my_app_name\src\Controller\ArticlesController.php:21
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\my_app_name\webroot\index.php:40
+
+Request URL: /Articles/index
+
+
+2021-04-14 15:22:26 Error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Articles` could not be found. in C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 245
+Exception Attributes: array (
+  0 => 'for alias `Articles`',
+)
+Stack Trace:
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:62
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:124
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Controller\Controller.php:307
+- C:\xampp\htdocs\my_app_name\src\Controller\ArticlesController.php:21
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\my_app_name\webroot\index.php:40
+
+Request URL: /Articles/index
+
+
+2021-04-14 15:22:40 Error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Articles` could not be found. in C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 245
+Exception Attributes: array (
+  0 => 'for alias `Articles`',
+)
+Stack Trace:
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:62
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:124
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Controller\Controller.php:307
+- C:\xampp\htdocs\my_app_name\src\Controller\ArticlesController.php:21
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Controller\Controller.php:531
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:151
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\BaseApplication.php:313
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\xampp\htdocs\my_app_name\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\xampp\htdocs\my_app_name\webroot\index.php:40
+
+Request URL: /Articles/index
+
+
